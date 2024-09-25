@@ -22,8 +22,8 @@ concurrency:
 
 env:
   VITE_EMAILJS_KEY: ${{ secrets.VITE_EMAILJS_KEY }}
-  VITE_EMAILJS_TEMPLATE_ID: ${{ VITE_EMAILJS_TEMPLATE_ID }}
-  VITE_EMAILJS_SERVICE_ID: ${{ VITE_EMAILJS_SERVICE_ID }}
+  VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+  VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
 
 jobs:
   # Single deploy job since we're just deploying
