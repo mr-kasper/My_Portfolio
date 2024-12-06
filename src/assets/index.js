@@ -17,7 +17,6 @@ import nextjs from "./tech/nextjs.svg";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import sass from "./tech/sass.png";
 import cypress from "./tech/cypress.svg";
@@ -66,7 +65,6 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   bootstrap,
   sass,
   cypress,

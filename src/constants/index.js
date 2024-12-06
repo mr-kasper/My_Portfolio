@@ -10,7 +10,6 @@ import {
   redux,
   tailwind,
   git,
-  threejs,
   bootstrap,
   sass,
   cypress,
@@ -115,10 +114,6 @@ const technologies = [
   {
     name: "Cypress",
     icon: cypress,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
