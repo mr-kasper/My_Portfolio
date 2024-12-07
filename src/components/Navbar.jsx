@@ -43,7 +43,7 @@ const Navbar = () => {
           ))}
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <Link to="/My_Portfolio/CV_RACHID_SAADI.pdf" target="_blank">
-              My Resume
+              Resume
             </Link>
           </li>
         </ul>

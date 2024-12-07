@@ -153,16 +153,11 @@ const experiences = [
 const projects = [
   {
     name: "Leon Template",
-    description: "The Leon super creative & minimal agency web template.",
+    description:
+      "A modern, minimalist agency web template offering responsive layouts and optimized performance to ensure seamless user experiences.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
     ],
     image: leon,
     source_code_link: "https://github.com/mr-kasper/HTML_And_CSS_Template_Leon",
@@ -170,16 +165,11 @@ const projects = [
   },
   {
     name: "Kasper Template",
-    description: "The Kasper art maker web template.",
+    description:
+      "An artistic and visually appealing template designed for creative professionals to showcase portfolios with flair and elegance.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
     ],
     image: kasper,
     source_code_link:
@@ -188,20 +178,12 @@ const projects = [
   },
   {
     name: "Game World Template",
-    description: "The Game World template.",
+    description:
+      "An engaging gaming-focused template featuring dynamic visuals and interactive elements powered by JavaScript for immersive user experiences.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: gameworld,
     source_code_link:
@@ -211,40 +193,24 @@ const projects = [
   },
   {
     name: "Drag in Drop",
-    description: "Website for collecting draggable items.",
+    description:
+      "A drag-and-drop utility showcasing real-time interactivity, built to highlight seamless user interface design and fluid interactions.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: dragindrop,
     source_code_link: "https://github.com/mr-kasper/Drag_in_Drop",
   },
   {
     name: "Rock Paper Scissors Game",
-    description: "Website for playing Rock Paper Scissors.",
+    description:
+      "An interactive browser-based Rock Paper Scissors game featuring a sleek design and intuitive gameplay, powered by JavaScript and SCSS.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: rockpaperscissors,
     source_code_link: "https://github.com/mr-kasper/Rock_Paper_Scissors",
@@ -252,20 +218,12 @@ const projects = [
   },
   {
     name: "Weather App",
-    description: "Website for getting weather information.",
+    description:
+      "A real-time weather application utilizing APIs to deliver accurate forecasts with an intuitive, user-friendly design.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: weather,
     source_code_link: "https://github.com/mr-kasper/Vanilla_Weather_App",
@@ -273,20 +231,12 @@ const projects = [
   },
   {
     name: "Product Filtering",
-    description: "Website for filtering products by category, search.",
+    description:
+      "A robust platform for filtering and discovering products by category or search, built with Tailwind CSS for modern, responsive design.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "tailwindcss", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: productfiltering,
     source_code_link: "https://github.com/mr-kasper/Vanilla_Product_Filtering",
@@ -294,20 +244,12 @@ const projects = [
   },
   {
     name: "Social Media Dashboard",
-    description: "Website for social media dashboard with light and dark mode.",
+    description:
+      "A modern dashboard for tracking social media insights, featuring customizable light and dark modes for enhanced user experience.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: socialmedia,
     source_code_link: "https://github.com/mr-kasper/Social_Media_Dashboard",
@@ -315,20 +257,12 @@ const projects = [
   },
   {
     name: "Channel Name Generator",
-    description: "Website for Youtube channel name generator.",
+    description:
+      "A creative tool for generating catchy YouTube channel names, offering a simple yet effective user interface for quick results.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: channelgenerator,
     source_code_link: "https://github.com/mr-kasper/Channel_Name_Generator",
@@ -336,20 +270,12 @@ const projects = [
   },
   {
     name: "Search App",
-    description: "Website for searching using Wikipedia API.",
+    description:
+      "A powerful search engine leveraging the Wikipedia API, designed for quick and accurate information retrieval with a user-friendly interface.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: searchme,
     source_code_link: "https://github.com/mr-kasper/Search_App",
@@ -357,16 +283,11 @@ const projects = [
   },
   {
     name: "Hangman Game",
-    description: "Website for Hangman Game by guessing words.",
+    description:
+      "An interactive version of the classic Hangman game, built with React and styled with CSS, offering a fun and engaging user experience.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: hangman,
     source_code_link: "https://github.com/mr-kasper/react-hangman",
@@ -374,16 +295,11 @@ const projects = [
   },
   {
     name: "Image Gallery",
-    description: "Website for searching images.",
+    description:
+      "A dynamic image search platform powered by React, offering smooth navigation and a responsive design, enhanced with Tailwind CSS for a modern UI.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
     ],
     image: imagegallery,
     source_code_link: "https://github.com/mr-kasper/react-image-gallery",
@@ -391,16 +307,11 @@ const projects = [
   },
   {
     name: "Expense Tracker",
-    description: "Website for tracking expenses.",
+    description:
+      "A personal finance tracker built with React, featuring intuitive tracking and real-time updates to help users monitor their spending habits.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: expensetracker,
     source_code_link: "https://github.com/mr-kasper/react-expense-tracker",
@@ -408,16 +319,11 @@ const projects = [
   },
   {
     name: "Food Recipe App",
-    description: "Website for searching food recipes.",
+    description:
+      "An easy-to-use recipe search platform, built with React and Tailwind CSS, allowing users to find, explore, and save their favorite dishes.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
     ],
     image: foodrecipe,
     source_code_link: "https://github.com/mr-kasper/React-Food-Recipe-App",
@@ -425,20 +331,12 @@ const projects = [
   },
   {
     name: "Netflix Clone",
-    description: "Website for movies, tv shows and their trailer.",
+    description:
+      "A movie and TV show catalog website, mimicking Netflix, with rich media content and a responsive interface built using HTML, CSS, and JavaScript.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: netflix,
     source_code_link: "https://github.com/mr-kasper/Netflix_Clone",
@@ -446,20 +344,12 @@ const projects = [
   },
   {
     name: "TinyPNG Clone",
-    description: "Website for compressing PNG and JPG images.",
+    description:
+      "A fast and efficient image compression tool, replicating TinyPNG, designed to reduce file sizes for PNG and JPG images while preserving quality.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "css", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: tinypng,
     source_code_link: "https://github.com/mr-kasper/tinypng_Clone",
@@ -467,20 +357,12 @@ const projects = [
   },
   {
     name: "Manage Landing Page",
-    description: "Landing page for a management of plan day-to-day tasks.",
+    description:
+      "A professional and responsive landing page for managing and planning day-to-day tasks, built with HTML, JavaScript, and Tailwind CSS.",
     tags: [
-      {
-        name: "html",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "tailwindcss", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
     ],
     image: manage,
     source_code_link: "https://github.com/mr-kasper/tailwind_manage_landing",
@@ -488,16 +370,11 @@ const projects = [
   },
   {
     name: "Gericht Restaurant Landing Page",
-    description: "Landing page for a restaurant.",
+    description:
+      "A sleek and modern landing page designed for a restaurant, built with React and CSS, showcasing a menu, atmosphere, and reservations.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: gericht,
     source_code_link: "https://github.com/mr-kasper/react_gerich_restaurant",
@@ -505,16 +382,11 @@ const projects = [
   },
   {
     name: "GPT3 JSM Template",
-    description: "Website for GPT3 landing page.",
+    description:
+      "A cutting-edge landing page template for GPT-3, created using React and CSS, showcasing the power of AI with engaging visuals and modern design.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: gpt3,
     source_code_link: "https://github.com/mr-kasper/react-gpt3-jsm-template",
@@ -522,37 +394,24 @@ const projects = [
   },
   {
     name: "HooBank Template",
-    description: "Landing page for HooBank.",
+    description:
+      "A sleek, financial services landing page template built with React and Tailwind CSS, offering a professional layout for business and banking solutions.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
     ],
     image: hoobank,
     source_code_link: "https://github.com/mr-kasper/react-HooBank",
     live_demo_link: "https://mr-kasper.github.io/react-HooBank/",
   },
   {
-    name: "Shopping Cart",
-    description: "Website for shopping.",
+    name: "Shopping Cart (TypeScript)",
+    description:
+      "An e-commerce shopping cart application built with React and TypeScript, offering a smooth, scalable shopping experience with modern features.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
     image: shoppingts,
     source_code_link:
@@ -561,21 +420,13 @@ const projects = [
       "https://mr-kasper.github.io/react-typescript-shopping-cart/",
   },
   {
-    name: "Shopping Cart",
-    description: "Website for shopping with Redux.",
+    name: "Shopping Cart (Redux)",
+    description:
+      "An advanced e-commerce shopping cart application with Redux integration, built for seamless user experience and state management.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "redux", color: "orange-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
     ],
     image: shopping,
     source_code_link: "https://github.com/mr-kasper/react-shopping-cart-app",

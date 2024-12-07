@@ -1,15 +1,15 @@
-import Tilt from 'react-tilt';
-import { motion } from 'framer-motion';
+import Tilt from "react-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { services } from '../constants';
-import { SectionWrapper } from '../hoc';
-import { fadeIn, textVariant } from '../utils/motion';
+import { styles } from "../styles";
+import { services } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
-      variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
@@ -43,14 +43,17 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I&apos;m a skilled frontend developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, and Three.js.
-        I&apos;m a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let&apos;s work together to bring your ideas to life!
+        As a frontend developer with a passion for innovation, I bring expertise
+        in TypeScript, JavaScript, and cutting-edge frameworks like React and
+        Next.js. I specialize in transforming complex designs into intuitive,
+        responsive interfaces using tools like Tailwind CSS, SCSS, and
+        Bootstrap. Known for my ability to quickly adapt and collaborate
+        effectively, I deliver scalable, high-performance solutions that address
+        real-world challenges. Together, we can bring your ideas to life with
+        creativity, precision, and impact.
       </motion.p>
 
       <div className="mt-20 flex justify-center flex-wrap gap-10">
@@ -62,4 +65,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");
