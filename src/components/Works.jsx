@@ -1,15 +1,15 @@
-import Tilt from 'react-tilt';
-import { motion } from 'framer-motion';
+import Tilt from "react-tilt";
+import { motion } from "framer-motion";
 
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-import { styles } from '../styles';
-import { github, hosting } from '../assets';
-import { SectionWrapper } from '../hoc';
-import { projects } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
+import { styles } from "../styles";
+import { github, hosting } from "../assets";
+import { SectionWrapper } from "../hoc";
+import { projects } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -21,14 +21,14 @@ const ProjectCard = ({
   live_demo_link,
 }) => {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl md:w-[300px] mdd:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -39,7 +39,7 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, '_blank')}
+              onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -50,7 +50,7 @@ const ProjectCard = ({
             </div>
             {live_demo_link && (
               <div
-                onClick={() => window.open(live_demo_link, '_blank')}
+                onClick={() => window.open(live_demo_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-1"
               >
                 <img
@@ -98,7 +98,7 @@ const Works = () => {
         },
       },
       {
-        breakpoint: 640,
+        breakpoint: 767,
         settings: {
           slidesToShow: 1,
         },
@@ -114,7 +114,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
+          variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] sm max-w-3xl leading-[30px]"
         >
           Following projects showcase my skills and experience through
@@ -142,4 +142,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, '');
+export default SectionWrapper(Works, "");

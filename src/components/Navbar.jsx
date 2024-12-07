@@ -14,7 +14,6 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
-        <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -23,8 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Rachid &nbsp;<span className="md:block hidden">| Portfolio</span>
+            Rachid &nbsp;<span className="smd:block hidden">| Portfolio</span>
           </p>
         </Link>
 
