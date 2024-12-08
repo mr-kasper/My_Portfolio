@@ -24,6 +24,11 @@ import cypress from "./tech/cypress.svg";
 import leanSoft from "./company/leanSoft.png";
 import drivenSchool from "./company/drivenSchool.png";
 
+import booking from "./booking.png";
+import notes from "./notes.png";
+import calendly from "./calendly.png";
+import admin from "./admin.png";
+import expense from "./expense.png";
 import leon from "./leon.png";
 import kasper from "./kasper.png";
 import gameworld from "./gameworld.png";
@@ -70,7 +75,12 @@ export {
   cypress,
   leanSoft,
   drivenSchool,
+  booking,
+  admin,
+  expense,
   leon,
+  notes,
+  calendly,
   kasper,
   gameworld,
   dragindrop,

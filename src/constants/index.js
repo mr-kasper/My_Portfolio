@@ -38,6 +38,11 @@ import {
   shopping,
   testing,
   gericht,
+  booking,
+  notes,
+  calendly,
+  admin,
+  expense,
 } from "../assets";
 
 export const navLinks = [
@@ -154,7 +159,77 @@ const experiences = [
   },
 ];
 
+//TODO: Add 6 more projects from booking app
 const projects = [
+  {
+    name: "Bookit",
+    description:
+      "An innovative platform designed for effortless room reservations, featuring real-time updates and streamlined workflows to deliver a seamless booking experience.",
+    tags: [
+      { name: "next.js", color: "pink-text-gradient" },
+      { name: "appwrite", color: "green-text-gradient" },
+      { name: "tailwindcss", color: "blue-text-gradient" },
+    ],
+    image: booking,
+    source_code_link: "https://github.com/mr-kasper/booking_app",
+    live_demo_link: "https://mrkasper-booking-app.netlify.app/",
+  },
+  {
+    name: "Taking Notes",
+    description:
+      "A Markdown-enabled note management platform that simplifies content organization with rich formatting capabilities. Achieved a 40% increase in user retention through intuitive design and user-friendly features.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "bootstrap", color: "pink-text-gradient" },
+      { name: "typescript", color: "orange-text-gradient" },
+    ],
+    image: notes,
+    source_code_link: "https://github.com/mr-kasper/react-note-taking-app",
+    live_demo_link: "https://react-take-note.netlify.app/",
+  },
+  {
+    name: "Calendly Clone",
+    description:
+      "Recreated the Calendly platform to provide seamless scheduling and calendar management. Implemented features such as event creation, calendar integration, and real-time availability updates, offering users an intuitive and efficient way to manage their appointments.",
+    tags: [
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "typescript", color: "orange-text-gradient" },
+      { name: "neon", color: "green-text-gradient" },
+      { name: "drizzle", color: "blue-text-gradient" },
+    ],
+    image: calendly,
+    source_code_link: "https://github.com/mr-kasper/nextjs-calendly-clone",
+    live_demo_link: "https://calendly-cloner.netlify.app/",
+  },
+  {
+    name: "TraversyPress",
+    description:
+      "A front-end admin dashboard interface created using Next.js. The dashboard features a responsive and intuitive design, providing essential admin functionalities. Data is simulated through static files, making it an ideal starting point for further backend integration.",
+    tags: [
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "tailwindcss", color: "pink-text-gradient" },
+      { name: "typescript", color: "orange-text-gradient" },
+      { name: "shadcn/ui", color: "green-text-gradient" },
+    ],
+    image: admin,
+    source_code_link: "https://github.com/mr-kasper/nextjs_admin_dashboard",
+    live_demo_link: "https://admin-dashboard-ui-plum.vercel.app/",
+  },
+  {
+    name: "Expense Tracker",
+    description:
+      "An intuitive app designed to help users monitor their financial activities. Effortlessly track both income and expenses, providing a clear snapshot of your financial health and helping you manage your budget with ease.",
+    tags: [
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "typescript", color: "orange-text-gradient" },
+      { name: "neon", color: "pink-text-gradient" },
+      { name: "clerk", color: "green-text-gradient" },
+    ],
+    image: expense,
+    source_code_link: "https://github.com/mr-kasper/nextjs-expense-tracker",
+    live_demo_link: "https://nextjs-expense-tracker-rho.vercel.app/",
+  },
   {
     name: "Leon Template",
     description:
