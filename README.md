@@ -1,6 +1,6 @@
 # 3D Interactive Portfolio
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)]()
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://portfolio-inky-delta-35.vercel.app/)
 
 A modern, interactive 3D portfolio website built with React, Three.js, and other cutting-edge web technologies. This portfolio showcases projects, skills, and experience in an engaging 3D environment.
 
