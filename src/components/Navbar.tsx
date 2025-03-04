@@ -96,7 +96,7 @@ const Navbar = () => {
           <div
             className={`${
               toggle ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10 pointer-events-none'
-            } p-6 fixed top-20 right-4 left-4 md:left-auto md:w-72 backdrop-blur-lg bg-black/80 z-30 
+            } p-6 fixed top-20 right-4 left-4 md:left-auto md:w-72 backdrop-blur-lg bg-black/95 z-30 
             rounded-2xl shadow-xl transition-all duration-300 ease-in-out 
             border border-gray-800/50`}
           >
