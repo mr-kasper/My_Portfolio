@@ -5,6 +5,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from '../components';
 
+export const dynamic = 'force-static';
+
 export default function Home() {
   return (
     <>
