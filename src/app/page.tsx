@@ -1,21 +1,13 @@
-import { BrowserRouter } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+'use client';
 
-import {
-  About,
-  Contact,
-  Experience,
-  Hero,
-  Navbar,
-  Tech,
-  Works,
-  StarsCanvas,
-} from "./components";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const App = () => {
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from '../components';
+
+export default function Home() {
   return (
-    <BrowserRouter>
+    <>
       <div className="relative z-0 bg-primary"></div>
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
@@ -30,8 +22,6 @@ const App = () => {
         <Contact />
         <StarsCanvas />
       </div>
-    </BrowserRouter>
+    </>
   );
-};
-
-export default App;
+}

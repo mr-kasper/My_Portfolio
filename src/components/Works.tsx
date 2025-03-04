@@ -1,15 +1,25 @@
-import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+import Tilt from 'react-parallax-tilt';
+import { motion } from 'framer-motion';
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-import { styles } from "../styles";
-import { github, hosting } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { github, hosting } from '../../public/assets';
+import { SectionWrapper } from '../hoc';
+import { projects } from '../constants';
+import { fadeIn, textVariant } from '../utils/motion';
+import Image, { StaticImageData } from 'next/image';
+
+type ProjectCardProps = {
+  index: number;
+  name: string;
+  description: string;
+  tags: Array<{ name: string; color: string }>;
+  image: StaticImageData;
+  source_code_link: string;
+  live_demo_link?: string | undefined;
+};
 
 const ProjectCard = ({
   index,
@@ -19,45 +29,32 @@ const ProjectCard = ({
   image,
   source_code_link,
   live_demo_link,
-}) => {
+}: ProjectCardProps) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+        tiltMaxAngleX={45}
+        tiltMaxAngleY={45}
+        scale={1}
+        transitionSpeed={450}
         className="bg-tertiary p-5 rounded-2xl md:w-[300px] mdd:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full bg-cover rounded-2xl"
-          />
+          <Image src={image} alt="project_image" className="w-full h-full bg-cover rounded-2xl" />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-Image_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(source_code_link, '_blank')}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
+              <Image src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
             </div>
             {live_demo_link && (
               <div
-                onClick={() => window.open(live_demo_link, "_blank")}
+                onClick={() => window.open(live_demo_link, '_blank')}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-1"
               >
-                <img
-                  src={hosting}
-                  alt="live demo"
-                  className="h-[80%] w-[80%] object-contain"
-                />
+                <Image src={hosting} alt="live demo" className="h-[80%] w-[80%] object-contain" />
               </div>
             )}
           </div>
@@ -70,10 +67,7 @@ const ProjectCard = ({
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
+            <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -107,29 +101,26 @@ const Works = () => {
   };
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      <motion.div variants={textVariant(0.1)}>
+        <p className={`sectionSubText `}>My work</p>
+        <h2 className={`sectionHeadText`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] sm max-w-3xl leading-[30px]"
         >
-          Following projects showcase my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
+          Following projects showcase my skills and experience through real-world examples of my
+          work. Each project is briefly described with links to code repositories and live demos in
+          it. It reflects my ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
       </div>
 
       <div className="mt-5">
         <div>
-          <h4 className={`${styles.sectionSubText} text-center font-semibold`}>
-            {projects.length} Projects
-          </h4>
+          <h4 className={`sectionSubText text-center font-semibold`}>{projects.length} Projects</h4>
         </div>
         <br />
         <Slider {...settings}>
@@ -142,4 +133,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, '');
