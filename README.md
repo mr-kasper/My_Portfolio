@@ -20,4 +20,3 @@ A modern, interactive 3D portfolio website built with React, Three.js, and other
 - **TailwindCSS**: Utility-first CSS framework
 - **Framer Motion**: Animation library
 - **EmailJS**: Email sending service integration
-- **Vite**: Build tool and development server
