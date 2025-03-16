@@ -7,12 +7,17 @@ import {
   css,
   reactjs,
   nextjs,
-  redux,
+  // redux,
   tailwind,
   git,
-  bootstrap,
-  sass,
+  // bootstrap,
+  // sass,
   cypress,
+  drizzle,
+  mysql,
+  nodejs,
+  postgresql,
+  prisma,
   leanSoft,
   drivenSchool,
   leon,
@@ -43,6 +48,11 @@ import {
   calendly,
   admin,
   expense,
+  storycareer,
+  crs,
+  whatsapp,
+  storeit,
+  ycdirectory,
 } from '../../public/assets';
 
 export const navLinks = [
@@ -104,18 +114,18 @@ const technologies = [
     name: 'Next.js',
     icon: nextjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Sass',
-    icon: sass,
-  },
-  {
-    name: 'Bootstrap',
-    icon: bootstrap,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Sass',
+  //   icon: sass,
+  // },
+  // {
+  //   name: 'Bootstrap',
+  //   icon: bootstrap,
+  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -127,6 +137,26 @@ const technologies = [
   {
     name: 'git',
     icon: git,
+  },
+  {
+    name: 'MySQL',
+    icon: mysql,
+  },
+  {
+    name: 'PostgreSQL',
+    icon: postgresql,
+  },
+  {
+    name: 'Drizzle ORM',
+    icon: drizzle,
+  },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
+  {
+    name: 'Prisma',
+    icon: prisma,
   },
 ];
 
@@ -159,8 +189,72 @@ const experiences = [
   },
 ];
 
-//TODO: Add 6 more projects from booking app
 const projects = [
+  {
+    name: 'StoreIt',
+    description:
+      'A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.',
+    tags: [
+      { name: 'next.js', color: 'pink-text-gradient' },
+      { name: 'appwrite', color: 'green-text-gradient' },
+      { name: 'tailwindcss', color: 'pink-text-gradient' },
+    ],
+    image: storeit,
+    source_code_link: 'https://github.com/mr-kasper/Store_It',
+    live_demo_link: 'https://store-it-liard-alpha.vercel.app/',
+  },
+  {
+    name: 'Computer Repair Shop',
+    description:
+      'A computer repair management platform optimizing ticket tracking, customer management, and technician assignments. Scaled to handle multiple repair shops and thousands of service requests, reducing resolution time and improving workflow efficiency.',
+    tags: [
+      { name: 'next.js', color: 'pink-text-gradient' },
+      { name: 'neon', color: 'green-text-gradient' },
+      { name: 'drizzle', color: 'orange-text-gradient' },
+    ],
+    image: crs,
+    source_code_link: 'https://github.com/mr-kasper/repairShop',
+    live_demo_link: 'https://repair-shop-eight.vercel.app/',
+  },
+  {
+    name: 'WhatsApp Clone',
+    description:
+      'A real-time messaging platform with voice/video calls, group chats, file sharing, and secure authentication, delivering a seamless communication experience. Designed for high concurrency, ensuring smooth performance even with a large number of active users.',
+    tags: [
+      { name: 'next.js', color: 'pink-text-gradient' },
+      { name: 'convex', color: 'green-text-gradient' },
+      { name: 'zegoCloud', color: 'orange-text-gradient' },
+    ],
+    image: whatsapp,
+    source_code_link: 'https://github.com/mr-kasper/whatsapp-clone',
+    live_demo_link: 'https://whatsapp-clone-alpha-seven.vercel.app/',
+  },
+  {
+    name: 'StoryCareer',
+    description:
+      'A career story-sharing platform where users can share experiences, discover professional journeys, save stories, and create profiles, fostering community engagement and inspiration. Integrated with highly scalable database architecture, handling user-generated content efficiently.',
+    tags: [
+      { name: 'next.js', color: 'pink-text-gradient' },
+      { name: 'neon', color: 'green-text-gradient' },
+      { name: 'prisma', color: 'blue-text-gradient' },
+    ],
+    image: storycareer,
+    source_code_link: 'https://github.com/mr-kasper/storycareer',
+    live_demo_link: 'https://storycareer-khaki.vercel.app/',
+  },
+  {
+    name: 'Modern Startup Directory',
+    description:
+      'A modern startup directory platform allows entrepreneurs to submit their startup ideas, connect with investors, and discover innovative projects. Built with the latest web technologies, it offers a seamless user experience with a clean, minimalist design.',
+    tags: [
+      { name: 'next.js', color: 'pink-text-gradient' },
+      { name: 'sanity CMS', color: 'green-text-gradient' },
+      { name: 'tailwindcss', color: 'blue-text-gradient' },
+    ],
+    image: ycdirectory,
+    source_code_link: 'https://github.com/mr-kasper/yc-startup-directory',
+    live_demo_link: 'https://yc-startup-directory-eta.vercel.app/',
+  },
   {
     name: 'Bookit',
     description:

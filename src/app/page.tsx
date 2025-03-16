@@ -3,7 +3,7 @@
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from '../components';
+import { About, Contact, Experience, Hero, Navbar, Tech, Works } from '../components';
 
 export const dynamic = 'force-static';
 
@@ -22,7 +22,7 @@ export default function Home() {
       <Works />
       <div className="relative z-0">
         <Contact />
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
       </div>
     </>
   );

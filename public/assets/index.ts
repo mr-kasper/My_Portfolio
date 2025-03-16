@@ -8,7 +8,6 @@ import menu from './menu.svg';
 import close from './close.svg';
 
 import css from './tech/css.png';
-
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -20,10 +19,20 @@ import typescript from './tech/typescript.png';
 import bootstrap from './tech/bootstrap.png';
 import sass from './tech/sass.png';
 import cypress from './tech/cypress.svg';
+import drizzle from './tech/drizzle.png';
+import mysql from './tech/mysql.png';
+import nodejs from './tech/nodejs.png';
+import postgresql from './tech/postgresql.png';
+import prisma from './tech/prisma.png';
 
 import leanSoft from './company/leanSoft.png';
 import drivenSchool from './company/drivenSchool.png';
 
+import storycareer from './storycareer.png';
+import crs from './crs.png';
+import whatsapp from './whatsapp.png';
+import storeit from './storeit.png';
+import ycdirectory from './ycdirectory.png';
 import booking from './booking.png';
 import notes from './notes.png';
 import calendly from './calendly.png';
@@ -73,8 +82,18 @@ export {
   bootstrap,
   sass,
   cypress,
+  drizzle,
+  mysql,
+  nodejs,
+  postgresql,
+  prisma,
   leanSoft,
   drivenSchool,
+  storycareer,
+  crs,
+  whatsapp,
+  storeit,
+  ycdirectory,
   booking,
   admin,
   expense,
